@@ -1,0 +1,39 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-mutantes{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-mutantes .mutantes{
+        margin-top: 40px;
+    }
+
+    .selecao-de-mutantes .mutantes .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-mutantes .lista-de-mutantes{
+        gap: 8px;
+    }
+
+    .selecao-de-mutantes .mutante img{
+        width: 80px;
+    }
+
+    .mutante-selecionado .mutante-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .mutante-selecionado .descricao-mutante{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+}

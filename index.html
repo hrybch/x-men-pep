@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-MEN - Semana do Zero ao Programador Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+    <main class="selecao-de-mutantes">
+        <section class="mutantes">
+            <h1 class="titulo">Selecione um mutante</h1>
+            <ul class="lista-de-mutantes">
+                <li class="mutante selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que lhe ocorreu quando criança, porém não consegue controlá-las sem seus óculos especiais.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Ciclope">
+                </li>
+                <li class="mutante" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+                <li class="mutante" id="lince-negra" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+                <li class="mutante" id="magneto" data-name="Magneto" data-description="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Magneto">
+                </li>
+                <li class="mutante" id="noturno" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Noturno">
+                </li>
+                <li class="mutante" id="tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Tempestade">
+                </li>
+                <li class="mutante" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Vampira">
+                </li>
+                <li class="mutante" id="wolverine" data-name="Wolverine" data-description="Poderes. Garras Metálicas. Fator de Cura Regenerativo, Super Agilidade.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="mutante-selecionado">
+            <img class="mutante-grande" src="./src/imagens/card-ciclope.png" alt="Mutante selecionado">
+            <div class="informacoes-mutante">
+                <h2 class="nome-mutante" id="nome-mutante">Ciclope</h2>
+                <p class="descricao-mutante" id="descricao-mutante">Ele tem o poder de disparar rajadas ópticas por um acidente que lhe ocorreu quando criança, porém não consegue controlá-las sem seus óculos especiais.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
